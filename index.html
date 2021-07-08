@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"ПОДТЯНИ ЖИВОТ ЗА 2 НЕДЕЛИ"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <p class="title">видеокурс</p>
+                <p class="title">"подтяни живот за 2 недели"</p>
+                <p class="txt">Методы быстрой и безопасной коррекции фигуры</p>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <p class="timer__title">до конца акции осталось:</p>
+            <div class="countdown">
+                <div class="time-section">
+                    <span class="count" id="days"></span>
+                    <span class="units">Дней</span>
+                </div>
+                <div class="time-section">
+                    <span class="count" id="hours"></span>
+                    <span class="units">Часов</span>
+                </div>
+                <div class="time-section">
+                    <span class="count" id="minutes"></span>
+                    <span class="units">Минут</span>
+                </div>
+                <div class="time-section">
+                    <span class="count" id="seconds"></span>
+                    <span class="units">Секунд</span>
+                </div>
+            </div>
+            <div class="block__info">
+                <div id="text__block" class="text__block">
+                    <p class="title__info">Содержание курса:</p>
+                    <p><span class="lesson">Урок №1:</span> Выстраивание геометрии живота</p>
+                    <p><span class="lesson">Урок №2:</span> Спиральная гимнастика для активизации тонуса мышц живота для красивой осанки</p>
+                    <p><span class="lesson">Урок №3:</span> Каскадные техники для укрепления верха и низа живота для нормализации обмена веществ</p>
+                    <p><span class="lesson">Урок №4:</span> Глубинная гимнастика для улучшения работы внутренних органов брюшной полости и органов малого таза</p>
+                    <p><span class="lesson">Урок №5:</span> Компенсирующие техники для укрепления спины и от болей в пояснице</p>
+                </div>
+                <div class="image__block "><img src="img/box.png" alt=""></div>
+            </div>
+            <div class="price">
+                <p class="now">370 руб.</p>
+                <p class="was">1800 руб.</p>
+            </div>
+            <div class="btn__wrapper"><a href="#popup" class="btn">Оформить заявку</a></div>
+        </div>
+    </section>
+    <div id="popup" class="popup">
+        <a href="#text__block" class="popap__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#text__block" class="popup__close"><img src="img/close.png" alt=""></a>
+                <div class="wrapper">
+                    <div class="form">
+                        <form action="#" id="form" class="form__body">
+                            <p class="form__title">видеокурс</p>
+                            <p class="form__subtitle">«Подтяни живот за 2 недели»</p>
+                            <div class="form__item">
+                                <label for="formName" class="form__label">Имя*</label>
+                                <input id="formName" type="text" name="name" class="form__input">
+                            </div>
+                            <div class="form__item">
+                                <label for="formSurname" class="form__label">Фамилия*</label>
+                                <input id="formSurname" type="text" name="surname" class="form__input">
+                            </div>
+                            <div class="form__item">
+                                <label for="formEmail" class="form__label">E-mail*</label>
+                                <input id="formEmail" type="text" name="email" class="form__input">
+                            </div>
+                            <div class="form__item">
+                                <label for="formPhone" class="form__label">Телефон</label>
+                                <input id="formPhone" type="text" name="phone" class="form__input">
+                            </div>
+                            <button type="submit" class="form__button">Оформить заявку</button>
+                            <div class="form__item">
+                                <div class="checkbox">
+                                    <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+                                    <label for="formAgreement" class="checkbox__label">Нажимая на эту кнопку вы принимаете <a href="#">Политику конфиденциальности </a> и условия <a href="#"> Договора-оферты</a></label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
